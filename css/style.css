@@ -4,12 +4,52 @@
 }
 
 header{
-    background-image: url(../img/fundo-topo.jpg);
     text-align: center;
+    background-image: url(../img/fundo-topo.jpg);
     padding: 10px 0;
 }
 
 header h1{
     margin: 0;
     height: 84px;
+}
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-position: center right;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(5, 206, 48);
+}
+#itemcontato{
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+.fundo-verde{
+    background-color: #bdff9c;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-container .col{
+    width: 430px;
 }
