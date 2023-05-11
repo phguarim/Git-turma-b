@@ -41,15 +41,47 @@ nav a:hover{
     background-color: #bdff9c;
 }
 .container{
-    width: 900px;
+    width: 60%;
     margin: 0 auto;
-    padding: 56px 0;
+    padding: 55px 0;
 }
 .flex-container{
     display: flex;
     justify-content: space-between;
-    
-}
+ }
 .flex-container .col{
     width: 430px;
+}
+.sobrenos {
+    width: 58%;
+}
+.produto{
+    width: 215px;
+    margin-top: 20px;
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding-top: 35px;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+.texto-centralizado{
+    text-align: center;
+}
+.btn-pata{
+    border: 1px solid #91e457;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+#produto .flex-container{
+    margin-top: 20px;
 }
