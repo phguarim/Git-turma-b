@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header{
@@ -15,7 +16,17 @@ header h1{
 }
 nav{
     text-align: center;
-    padding: 15px 0;
+    padding: 0px;
+}
+.navborder{
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+}
+.iconm{
+    padding-bottom: 100px;
 }
 nav li{
     display: inline;
@@ -24,6 +35,7 @@ nav li{
     padding-right: 27px;
     margin-right: 10px;
     background-position: center right;
+    padding-bottom: px;
 }
 nav a{
     text-decoration: none;
@@ -39,34 +51,37 @@ nav a:hover{
 }
 .fundo-verde{
     background-color: #bdff9c;
+    border-radius: 30px;
 }
 .container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-    padding: 55px 0;
+    padding: 20px;
 }
 .flex-container{
     display: flex;
     justify-content: space-between;
+    padding: 50px;
  }
 .flex-container .col{
     width: 430px;
 }
 .sobrenos {
-    width: 58%;
+    width: 45%;
 }
 .produto{
     width: 215px;
-    margin-top: 20px;
+    margin-top: -30px;
 }
 .produto figure{
     border: 1px solid #c4c4c4;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     margin: 0 0 15px 0;
-    padding-top: 35px;
+    padding-top: 30px;
     text-align: center;
     height: 160px;
     line-height: 160px;
+    border-radius: 30px;
 }
 .texto-centralizado{
     text-align: center;
@@ -85,3 +100,34 @@ nav a:hover{
 #produto .flex-container{
     margin-top: 20px;
 }
+.produto:hover{
+    color: rgb(5, 206, 48);
+    zoom: 130%;
+}
+.servicos{
+    width: 55%;
+    padding-right: 100px;
+}
+.img4 {
+    width: 550px;
+    padding: 10px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
