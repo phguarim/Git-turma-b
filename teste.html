@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divone{
+            background-color: aqua;
+            width: 400px;
+            height: 300px;
+            position: relative;
+        }
+        .divtwo{
+            width: 150px;
+            height: 190px;
+            top: 0;
+            right: 0;
+            background-color: black;
+            position: fixed;
+        }
+        .divthree{
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: 2px solid;
+            width: 50px;
+            height: 50px;
+        }
+        html{
+            height: 9000px;
+        }
+        .position{
+            border: solid 2px;
+            padding-bottom: 2000px;
+            width: 500px;
+            height: 100px;
+        }
+        .sticky{
+            margin-left: 700px;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="divone">
+        <div class="divthree"></div>
+    </div>
+    <div class="divtwo"><h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quisquam maiores harum ullam, temporibus quae iure laboriosam, sit aliquam sunt consequuntur sed officiis magni! Quisquam quia veritatis vel pariatur soluta.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis nobis, id repellat nam, quo, sint iste amet consectetur fugiat molestias temporibus possimus nihil. Nulla, odit distinctio. Incidunt accusantium laudantium laborum.</p></h2></div>
+    <div class="sticky"><h2>Eu sou o sticky</h2></div>
+    <div class="position"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsam delectus unde velit iusto aliquid eaque esse quod sequi reprehenderit consectetur nam possimus repudiandae perspiciatis amet, maxime, dolor pariatur est.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sint similique officiis. Aperiam dignissimos nobis corporis, ipsa et dolorum alias cum minus. Cupiditate inventore illo fuga est ipsa recusandae nulla.</p></div>
+</body>
+</html>
