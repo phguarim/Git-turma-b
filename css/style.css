@@ -103,7 +103,7 @@ nav a:hover{
     width: 550px;
     padding: 10px;
     display: block;
-    margin-right: 0px;
+    margin-right: -147px;
 }
 #cname{
     margin-bottom: 1.5rem;
@@ -162,7 +162,7 @@ nav a:hover{
     background-color: #dadada;
 }
 #email:focus{
-    background-color: ##dadada;
+    background-color: #dadada;
 }
 #fone:hover{
     background-color: #dadada;
