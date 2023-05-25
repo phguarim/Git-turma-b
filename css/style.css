@@ -16,24 +16,14 @@ header h1{
 }
 nav{
     text-align: center;
-    padding: 0px;
-    position: sticky;
-    top: 0;
-}
-.navborder{
-    border: solid 1px rgb(143, 143, 143);
-    border-radius: 30px;
-    width: 25%;
-    height: 60px;
-    margin-left: 37.7%;
-    background-color: white;
+    padding: 15px;
 }
 nav li{
     display: inline;
     background-image: url(../img/patinha-preta.png);
     background-repeat: no-repeat;
-    padding-right: 27px;
-    margin-right: 10px;
+    padding-right: 37px;
+    margin-right: 6px;
     background-position: center right;
 }
 nav a{
@@ -68,6 +58,7 @@ nav a:hover{
 }
 .sobrenos {
     width: 55%;
+    padding-right: 100px;
 }
 .produto{
     width: 215px;
@@ -110,7 +101,9 @@ nav a:hover{
 }
 .img4 {
     width: 550px;
-    padding: 10px;  
+    padding: 10px;
+    display: block;
+    margin-right: 0px;
 }
 #cname{
     margin-bottom: 1.5rem;
@@ -207,6 +200,24 @@ nav a:hover{
 h2{
     text-transform: uppercase;
     margin-bottom: 15px;
+}
+footer{
+    text-indent: 10px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(../img/fundo-topo.jpg)
+}
+.iconlogo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+.iconlogo:hover{
+    zoom: 120%;
+}
+h3{
+    padding: 10px;
 }
 
 
